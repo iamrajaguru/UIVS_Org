@@ -1,0 +1,23 @@
+.bg {
+    background-color: #4C0027;
+    color: aliceblue;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .border{
+    border-width: 10%;
+    border-color: black;
+    
+  }
+.top-header{
+  background-color: #dfe6e9
+}
+
+  .img-myStyle {
+     width: 100%;
+     height: auto; 
+  }
