@@ -8,7 +8,7 @@
   <title>Portfolio</title>
 
 </head>
-<?php $page='portfolio'; include '..\header.php'; ?>
+<?php $page='photogallery'; include '..\header.php'; ?>
 <body>
        
    <!--First Section Start-->
@@ -59,9 +59,10 @@
                     <h3>Some of our work</h3>
                 </div>
                     <div class="col-md-4 text-center">
+                        <a href="./viewPhoto.php">
                        <img class="img-fluid p-2 p-sm-3" src="../Images/p1.jpg" alt="">
                        <h5>Ayutha Pooja </h5>
-                      
+                       </a>
                     </div>
                     <div class="col-md-4 text-center">
                         <img class="img-fluid p-2 p-sm-3" src="../Images/p2.jpg" alt="">

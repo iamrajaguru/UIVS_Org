@@ -12,19 +12,16 @@
 
 
 <body>
- 
+
   <section>
           <img class="img-fluid  img-myStyle" src="./Images/20835.jpg" alt="">
   </section>
   <section>
     <div class="container  pt-3">
       <div class="row align-items-center">
-        <div class="col-md-5 text-center">
-            <h3>UIVS - Events</h3>
-          <img class="img-fluid align-self-center " src="./Images/chakra.png" alt="">
-        </div>
-        <div class="col-md-7 text-justify">
-          
+       
+        <div class="col text-center">
+          <h3>Introduction</h3>
           <p>
             Hindu practices include rituals such as puja (worship) and recitations, japa, meditation, family-oriented
             rites of passage, annual festivals, and occasional pilgrimages. Some Hindus leave their social world and
@@ -39,6 +36,56 @@
     </div>
 
   </section>
+
+
+  <section>
+            <div class="container-fluid " >
+    
+                    <div id="carouselExampleIndicators"  class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100  " height="500" src="./Images/e2.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                        <h5 style="color: ivory">Vijayathasami</h5>
+                                        <p  style="color: ivory">oct 15</p>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100  " height="500" src="./Images/e3.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                        <h5 style="color: ivory">Ramanavami</h5>
+                                        <p  style="color: ivory">Feb 18</p>
+                                    </div>
+                              
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100  "height="500" src="./Images/e4.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                        <h5 style="color: ivory">Krishnajayanthi</h5>
+                                        <p  style="color: ivory">Jul 2</p>
+                                    </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+    
+    
+            </div>
+        
+        </section>
+ 
 
 
 
