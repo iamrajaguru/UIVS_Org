@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../Css/Styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <title>Home Page</title>
 
 </head><?php $page='about'; include '..\header.php';?>
@@ -15,11 +16,34 @@
           <img class="img-fluid  img-myStyle" src="../Images/20835.jpg" alt="">
   </section>
   <!-------------------------------------------------------->
+<section class="container pt-5 pb-3">
+<div class="row  align-items-center"  style=" font-family: Tangerine, serif;">
+<div class="col-md-4  text-center ">
+<img class="rounded-circle pb-2 " alt="100x100" src="../Images/tom.jpg" height=200px width=200px
+          data-holder-rendered="true">
+          <h3><b>President</b></h3>
+          <h4><b>Tom</b></h4>
+</div>
+<div class="col-md-4  text-center ">
+<img class="rounded-circle pb-2 " alt="100x100" src="../Images/hp.jpg" height=200px width=200px
+          data-holder-rendered="true">
+          <h3><b>Vice President</b></h3>
+          <h4><b>Roshan</b></h4>
+</div>
+<div class="col-md-4 text-center ">
+<img class="rounded-circle  pb-2  " alt="100x100" src="../Images/nolan.jpg" height=200px width=200px
+          data-holder-rendered="true">
+          <h3><b>Founder</b></h3>
+          <h4><b>Nolan</b></h4>
+</div>
 
+</div>
+</section>
   <!--------------------------------------------------------->
 <footer>
         <section>
-            <div class="container">
+        <hr/>
+            <div class="container pt-3">
               <div class="row ">
                 <div class="col-md-12  text-center ">
                     <h3>Contact Us</h3>
