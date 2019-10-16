@@ -25,13 +25,13 @@
 
             </div>
             <div class="col-md-3 auto text-center">
-                               <img  id="myImg3" class="img-fluid p-2 p-sm-3 myImg"  onclick="sendimg(this.id);"  src="../Images/e7.jpg" alt="">
+                               <img  class="img-fluid p-2 p-sm-3 "   src="../Images/e7.jpg" alt="">
                                <h5>Vijaya Dasami</h5>
                               
 
             </div>
              <div class="col-md-3 auto text-center">
-                               <img   id="myImg4" class="img-fluid p-2 p-sm-3" src="../Images/e7.jpg" alt="">
+                               <img  class="img-fluid p-2 p-sm-3" src="../Images/e7.jpg" alt="">
                                <h5>Vijaya Dasami</h5>
                               
 
@@ -57,7 +57,6 @@
     <script src="../Bootstrap/bootstrap.min.js"></script>
     <script>
   $(document).ready(function(){
-    alert("loaded");
     $('img').on('click',function(){
     var src=$(this).attr('src');
     $("#model-img").attr('src',src);

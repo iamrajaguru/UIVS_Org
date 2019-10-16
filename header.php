@@ -26,7 +26,7 @@
               <a class="nav-link" href="<?php if($page=='home'){echo'./sub/shala.php';}else{echo'./shala.php';}?> ">Padashala & Goshala</a>
             </li>
             <li class="nav-item  <?php if($page=='photogallery'){echo'active';}?>">
-              <a class="nav-link" href="<?php if($page=='home'){echo'./sub/photogallery.php';}else{echo'./photogallery.php';}?> ">Photogallery</a>
+              <a class="nav-link" href="<?php if($page=='home'){echo'./sub/photogallery.php';}else{echo'./photogallery.php';}?> ">Photo Gallery</a>
             </li>
             <li class="nav-item  <?php if($page=='about'){echo'active';}?>">
               <a class="nav-link" href="<?php if($page=='home'){echo'./sub/aboutus.php';}else{echo'./aboutus.php';}?> ">About Us</a>

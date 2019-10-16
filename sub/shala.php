@@ -14,8 +14,4 @@
 <script src="../Bootstrap/jquery-3.3.1.slim.min.js"></script>
     <script src="../Bootstrap/popper.min.js"></script>
     <script src="../Bootstrap/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function(){
-    alert("loaded")});
-    </script>
 </body>

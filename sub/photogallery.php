@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../Css/Styles.css">
-  <title>Portfolio</title>
+  <title>PhotoGallery</title>
 
 </head>
 <?php $page='photogallery'; include '..\header.php'; ?>
@@ -19,10 +19,10 @@
         <div class="container p-1 p-sm-3">
             <div class="row">
                 <div class="col-12">
-                    <h2>Portfolio</h2>
+                    <h2>Photo Gallery</h2>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
-                        <li class="breadcrumb-item active">Portfolio</li>
+                        <li class="breadcrumb-item active">Photo gallery</li>
                     </ol>
                 </div>
  
@@ -59,7 +59,7 @@
                     <h3>Some of our work</h3>
                 </div>
                     <div class="col-md-4 text-center">
-                        <a href="./viewPhoto.php">
+                        <a  href="./viewPhoto.php" style="text-decoration: none; color:black">
                        <img class="img-fluid p-2 p-sm-3" src="../Images/p1.jpg" alt="">
                        <h5>Ayutha Pooja </h5>
                        </a>
