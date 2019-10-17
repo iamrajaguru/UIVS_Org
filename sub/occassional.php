@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../Css/Styles.css">
-  <title>Occassional</title>
+  <title>Occassional Poojas</title>
 
 </head>
 <?php $page='occasional'; include '..\header.php'; ?>

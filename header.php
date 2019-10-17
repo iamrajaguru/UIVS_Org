@@ -19,8 +19,8 @@
                 Events
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item <?php if($page=='events'){echo'active';}?>" href="<?php if($page=='home'){echo'./sub/event.php';}else{ echo'./event.php';}?> " >Regular Activities</a>
-                <a class="dropdown-item <?php if($page=='occasional'){echo'active';}?>" href="<?php if($page=='home'){echo'./sub/occassional.php';}else{ echo'./occassional.php';}?> ">Occasional Events</a>
+                <a class="dropdown-item <?php if($page=='events'){echo'active';}?>" href="<?php if($page=='home'){echo'./sub/event.php';}else{ echo'./event.php';}?> " >Regular Poojas</a>
+                <a class="dropdown-item <?php if($page=='occasional'){echo'active';}?>" href="<?php if($page=='home'){echo'./sub/occassional.php';}else{ echo'./occassional.php';}?> ">Occasional Poojas</a>
            </li>
            <li class="nav-item  <?php if($page=='shala'){echo'active';}?>">
               <a class="nav-link" href="<?php if($page=='home'){echo'./sub/shala.php';}else{echo'./shala.php';}?> ">Padashala & Goshala</a>

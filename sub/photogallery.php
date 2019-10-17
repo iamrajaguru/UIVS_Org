@@ -59,7 +59,7 @@
                     <h3>Some of our work</h3>
                 </div>
                     <div class="col-md-4 text-center">
-                        <a  href="./viewPhoto.php" style="text-decoration: none; color:black">
+                        <a class="thumbnail" href="./viewPhoto.php" style="text-decoration: none; color:black">
                        <img class="img-fluid p-2 p-sm-3" src="../Images/p1.jpg" alt="">
                        <h5>Ayutha Pooja </h5>
                        </a>

@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./Bootstrap/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="./Css/Styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Css/Styles.css?v=<?php echo time(); ?>">
   <title>Home Page</title>
 
 </head><?php $page='home'; include 'header.php'; ?>
@@ -19,17 +20,14 @@
   <section>
     <div class="container  pt-3">
       <div class="row align-items-center">
-       
-        <div class="col text-center">
-          <h3>Introduction</h3>
-          <p>
-            Hindu practices include rituals such as puja (worship) and recitations, japa, meditation, family-oriented
-            rites of passage, annual festivals, and occasional pilgrimages. Some Hindus leave their social world and
-            material possessions, then engage in lifelong Sannyasa (monastic practices) to achieve Moksha
-            Hinduism includes a diversity of ideas on spirituality and traditions, but has no ecclesiastical order, no
-            unquestionable religious authorities, no governing body, no prophet(s) nor any binding holy book; Hindus can
-            choose to be polytheistic, pantheistic, panentheistic, pandeistic, henotheistic, monotheistic, monistic,
-            agnostic, atheistic or humanist.
+        
+        <div class="col  text-center">
+        <h3 id="headstyle">Introduction</h3>
+          <p class="text-font text-justify">
+          With the Grace of Jagadguru His Holiness Sri Paramacharyal of Kanchi,
+           Sri Uttara Indraprastha Vaidiga Samajam (Regd.) is an institution of Vedic practices and all Hindu spiritual activities.
+           We follow the motto “धर्मो रक्षति रक्षितः”. Based from the capital city of India, New Delhi, our trust provides a great opportunity for people from different cultural backgrounds to come together and experience divinity at our place. We perform special poojas on different occasions as per the Hindu dharma calendar and also special parihara poojas, homams (havans), festival poojas and guidance for carrying out any kind of Hindu rituals. We have ‘Veda Vedanga Padashala and Goshala’, functional in our Shankara Mutt, Adi Shankaracharya Mandir located at Noida – Delhi NCR.
+
           </p>
         </div>
       </div>
@@ -39,9 +37,9 @@
 
 
   <section>
-            <div class="container-fluid " >
+            <div class="container " >
     
-                    <div id="carouselExampleIndicators"  class="carousel slide carousel-fade" data-ride="carousel">
+                    <div id="carouselExampleIndicators"  class="carousel slide carousel-fade " data-ride="carousel">
                             <ol class="carousel-indicators">
                               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -50,24 +48,24 @@
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <img class="d-block w-100  " height="500" src="./Images/e2.jpg" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                        <h5 style="color: ivory">Vijayathasami</h5>
-                                        <p  style="color: ivory">oct 15</p>
+                                <div class="carousel-caption d-none  d-md-block">
+                                        <h5 >Vijayathasami</h5>
+                                        <p  >oct 15</p>
                                     </div>
                               </div>
                               <div class="carousel-item">
                                 <img class="d-block w-100  " height="500" src="./Images/e3.jpg" alt="Second slide">
                                 <div class="carousel-caption d-none d-md-block">
-                                        <h5 style="color: ivory">Ramanavami</h5>
-                                        <p  style="color: ivory">Feb 18</p>
+                                        <h5 >Ramanavami</h5>
+                                        <p>Feb 18</p>
                                     </div>
                               
                               </div>
                               <div class="carousel-item">
                                 <img class="d-block w-100  "height="500" src="./Images/e4.jpg" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block">
-                                        <h5 style="color: ivory">Krishnajayanthi</h5>
-                                        <p  style="color: ivory">Jul 2</p>
+                                        <h5>Krishnajayanthi</h5>
+                                        <p >Jul 2</p>
                                     </div>
                               </div>
                             </div>

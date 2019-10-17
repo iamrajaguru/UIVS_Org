@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../Css/Styles.css">
-  <title>Events</title>
+  <title>Regular Poojas</title>
 
 </head>
 <?php $page='events'; include '..\header.php'; ?>
@@ -18,9 +18,9 @@
     <section>
         <div class="container  p-2">
             <div class="row ">
-                <div class="col-md-3 border text-justify p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/e7.jpg" alt="">
+                <div class="col-md-3  text-justify p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/e7.jpg" height=300px width=500px alt="">
                         <h5>#Event_1</h5>
                         <p>The festive season is widely celebrated. These events have a historic significance to them
                             and are rooted in various cultural and linguistic norms. The onset of the famous Diwali
@@ -29,9 +29,9 @@
                             with its magnificent rain dance. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border  text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/e2.jpg" alt="">
+                <div class="col-md-3   text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/e2.jpg"  height=300px width=500px  alt="">
                         <h5>#Event_2</h5>
                         <p>The festive season is widely celebrated. These events have a historic significance to them
                             and are rooted in various cultural and linguistic norms. The onset of the famous Diwali
@@ -40,9 +40,9 @@
                             with its magnificent rain dance. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/p1.jpg" alt="">
+                <div class="col-md-3  text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/p1.jpg"  height=300px width=500px alt="">
                         <h5>#Event_3</h5>
                         <p>Rama Navami is the celebration of the birth of Rama. Rama Navami is the day on which Lord
                             Rama, the seventh incarnation of Lord Vishnu, incarnated in human form in Ayodhya. He is the
@@ -51,9 +51,9 @@
                             the sages rejoice. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/e7.jpg" alt="">
+                <div class="col-md-3  text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/e7.jpg"  height=300px width=500px  alt="">
                         <h5>#Event_4</h5>
                         <p>These are the most popular forms under which she is worshipped: Durga, goddess beyond reach;
                             Kali, the auspicious power of time; Amba or Jagdamba, mother of the world.Annapurna, giver
@@ -63,9 +63,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 border  text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/p2.jpg" alt="">
+                <div class="col-md-3   text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/p2.jpg"  height=300px width=500px  alt="">
                         <h5>#Event_5</h5>
                         <p>The festive season is widely celebrated. These events have a historic significance to them
                             and are rooted in various cultural and linguistic norms. The onset of the famous Diwali
@@ -74,9 +74,9 @@
                             with its magnificent rain dance. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border  text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/e7.jpg" alt="">
+                <div class="col-md-3   text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/e7.jpg"  height=300px width=500px  alt="">
                         <h5>#Event_6</h5>
                         <p>Navratri is the Hindu festival of worship and dance. In Sanskrit the term literally means
                             "nine nights". During this festival the forms of Shakti are worshiped, and effigies are
@@ -84,9 +84,9 @@
                             nine days, nine incarnations of Shakti are worshiped. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border  text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid" src="../Images/e8.jpg" alt="">
+                <div class="col-md-3   text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid" src="../Images/e8.jpg"  height=300px width=500px  alt="">
                         <h5>#Event_7</h5>
                         <p>The festive season is widely celebrated. These events have a historic significance to them
                             and are rooted in various cultural and linguistic norms. The onset of the famous Diwali
@@ -95,9 +95,9 @@
                             with its magnificent rain dance. <a href="#">Read more...</a></p>
                     </div>
                 </div>
-                <div class="col-md-3 border text-justify  p-md-2">
-                    <div class="p-md-3">
-                        <img class="img-fluid " src="../Images/e2.jpg" alt="">
+                <div class="col-md-3  text-justify  p-md-2">
+                    <div class="p-md-3 card">
+                        <img class="img-fluid " src="../Images/e2.jpg" height=300px width=500px  alt="">
                         <h5>#Event_8</h5>
                         <p>The festive season is widely celebrated. These events have a historic significance to them
                             and are rooted in various cultural and linguistic norms. The onset of the famous Diwali

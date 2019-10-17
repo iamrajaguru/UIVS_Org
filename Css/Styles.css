@@ -2,6 +2,30 @@
     background-color: #4C0027;
     color: aliceblue;
   }
+/*   
+  #stylezf {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  } */
+  #headstyle{
+    font-family: 'Cookie', cursive;
+    font-size: 3rem;
+  }
+  .text-font{
+  font-family: 'Cookie', cursive;
+  /* font-family: 'Great Vibes', cursive; */
+  font-size: 1.5rem;
+  /* font-weight:700; */
+ 
+}
+.dropdown-menu {
+  padding: 0 0;
+  }
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4C0027;;
+}
   .centered {
     position: absolute;
     top: 50%;
@@ -12,6 +36,10 @@
     border-width: 10%;
     border-color: black;
     
+  }
+  ul.b {
+    list-style-image: url(../Images/om.png);;
+    line-height: 2;
   }
 .top-header{
   background-color: #dfe6e9
@@ -25,3 +53,43 @@
      height: auto; 
   }
   
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+
+  }
+
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .ht{
+    height: auto;
+  }
+
+  .ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
