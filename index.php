@@ -1,17 +1,18 @@
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./Bootstrap/fontawesome/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <link rel="stylesheet" href="./Css/Styles.css?v=<?php echo time(); ?>">
   <title>Home Page</title>
-
-</head><?php $page='home'; include 'header.php'; ?>
-
-
-
+</head>
+<?php $page='home'; include 'header.php'; ?>
 <body>
 
   <section>
@@ -22,8 +23,9 @@
       <div class="row align-items-center">
         
         <div class="col  text-center">
-        <h3 id="headstyle">Introduction</h3>
-          <p class="text-font text-justify">
+        <h3 id="headstyle">Introduction</h3> 
+        <!-- <h4>Introduction</h4> -->
+          <p  class=" text-justify">
           With the Grace of Jagadguru His Holiness Sri Paramacharyal of Kanchi,
            Sri Uttara Indraprastha Vaidiga Samajam (Regd.) is an institution of Vedic practices and all Hindu spiritual activities.
            We follow the motto “धर्मो रक्षति रक्षितः”. Based from the capital city of India, New Delhi, our trust provides a great opportunity for people from different cultural backgrounds to come together and experience divinity at our place. We perform special poojas on different occasions as per the Hindu dharma calendar and also special parihara poojas, homams (havans), festival poojas and guidance for carrying out any kind of Hindu rituals. We have ‘Veda Vedanga Padashala and Goshala’, functional in our Shankara Mutt, Adi Shankaracharya Mandir located at Noida – Delhi NCR.
@@ -85,7 +87,17 @@
         </section>
  
 
+<section>
+<div class="container-fluid mt-5 bg "  width=100%>
+<div class="row text-center">
+<div class="col-4 mt-3">
+<img src="./Images/chakra.png" height=200px width=200px alt="">
+<p>Poojas</p></div>
+<div class="col-4 mt-3"><img src="./Images/chakra.png" height=200px width=200px alt=""><p>Shala</p></div>
+<div class="col-4 mt-3"><img src="./Images/highvalue.png" height=200px width=200px alt=""><p>Donations</p></div>
 
+</div>
+</section>
 
 
 
@@ -95,7 +107,7 @@
             <hr/>
           <div class="row ">
             <div class="col-md-12  text-center ">
-                <h3>Contact Us</h3>
+                <h3 class="ml12">Contact Us</h3>
             </div>
           </div>
          
@@ -135,27 +147,42 @@
           </div>
     </section>
     <section>
-        <div class="container-fluid   pt-2">
-            <hr/>
-            <div class="row">
-                <div class="col-12 pt-2 text-center">
-                    <p style="color: #4C0027">
-                      Copyright © 2019 - All rights reserved
-                    </p>
-                </div>
-            </div>
-          </div>
-    </section>
-  </footer>
+                <div class="container-fluid " width:100%>
+                    <div class="row test" >
+                        <div class="col-12 pt-2 text-center">
+                            <p >
+                              Copyright © 2019 - All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+            </section>
+    </footer>
+    <script src="../Bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="../Bootstrap/popper.min.js"></script>
+    <script src="../Bootstrap/bootstrap.min.js"></script>
+    <script>// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });</script>
 
 
 
-
-
-
-
-  <script src="./Bootstrap/jquery-3.3.1.slim.min.js"></script>
-  <script src="./Bootstrap/popper.min.js"></script>
-  <script src="./Bootstrap/bootstrap.min.js"></script>
 </body>
-

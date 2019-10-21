@@ -1,10 +1,14 @@
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="../Css/Styles.css">
+  <link rel="stylesheet" href="../Css/Styles.css?v=<?php echo time(); ?>">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <title>contact us</title>
 
 </head>
@@ -81,13 +85,13 @@
             </div>
             <div class="col-md-5 address text-justify">
                 <h5>Whatsapp Number</h5>
-                <p><a href="tel: 8807692624"><i class="fa fa-phone"></i>+(91)8807692624</a></p>
+                <p><a href="tel: 8807692624"><i class="fa fa-phone"></i>+(91)9555275648</a></p>
                 <h5>Email</h5>
-                <p><a href="mailto: rajaguru2697@gmail.com"><i class="fa fa-envelope pr-1"></i>uivs@gmail.com</a></p>
+                <p><a href="mailto: uivssomaskanda@gmail.com"><i class="fa fa-envelope pr-1"></i>uivssomaskanda@gmail.com</a></p>
                 <h5>Working Hours</h5>
                 <p>Mon - Fri : 9am - 5pm(IST)</p>
                 <h5>Address</h5>
-                <p>No.1,Nagai Road Thanjavur</p>
+                <p>Shanakara Mutt<br/>Sri Adi Shankaracharya Mandir,<br/>Plot No.A-52,Sector-42,Noida-201303(U.P).</p>
             </div>
         </div>
     </div>
@@ -124,16 +128,16 @@
               </div>
         </section>
         <section>
-            <div class="container-fluid   pt-2">
-                <div class="row">
-                    <div class="col-12 pt-2 text-center">
-                        <p style="color: #4C0027">
-                          Copyright © 2019 - All rights reserved
-                        </p>
+                <div class="container-fluid mt-2 " width:100%>
+                    <div class="row test" >
+                        <div class="col-12 pt-2 text-center">
+                            <p >
+                              Copyright © 2019 - All rights reserved
+                            </p>
+                        </div>
                     </div>
-                </div>
-              </div>
-        </section>
+                  </div>
+            </section>
 </footer>
 <script src="../Bootstrap/jquery-3.3.1.slim.min.js"></script>
 <script src="../Bootstrap/popper.min.js"></script>

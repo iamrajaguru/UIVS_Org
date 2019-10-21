@@ -1,10 +1,14 @@
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="../Css/Styles.css">
+  <link rel="stylesheet" href="../Css/Styles.css?v=<?php echo time(); ?>">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <title>Regular Poojas</title>
 
 </head>
@@ -110,12 +114,15 @@
         </div>
 
     </section>
+<section class="mt-5" >
+    <div  style="background-color:#4C0027; height:5% ;width:100%"></div>
+</section>
     <footer>
             <section>
-                <div class="container">
+                <div class="container mt-5">
                   <div class="row ">
                     <div class="col-md-12  text-center ">
-                        <h3>Contact Us</h3>
+                        <h3 class="ml12">Contact Us</h3>
                     </div>
                   </div>
                   <hr/>
@@ -154,10 +161,10 @@
                   </div>
             </section>
             <section>
-                <div class="container-fluid   pt-2">
-                    <div class="row">
+                <div class="container-fluid " width:100%>
+                    <div class="row test" >
                         <div class="col-12 pt-2 text-center">
-                            <p style="color: #4C0027">
+                            <p >
                               Copyright © 2019 - All rights reserved
                             </p>
                         </div>
@@ -165,16 +172,31 @@
                   </div>
             </section>
     </footer>
-        
-    
-
-
-
-
-
-
-
     <script src="../Bootstrap/jquery-3.3.1.slim.min.js"></script>
     <script src="../Bootstrap/popper.min.js"></script>
     <script src="../Bootstrap/bootstrap.min.js"></script>
+    <script>// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 1200,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1100,
+    delay: (el, i) => 100 + 30 * i
+  });</script>
+
+
+
 </body>

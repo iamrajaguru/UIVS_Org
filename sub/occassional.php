@@ -1,10 +1,14 @@
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="../Css/Styles.css">
+  <link rel="stylesheet" href="../Css/Styles.css?v=<?php echo time(); ?>">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <title>Occassional Poojas</title>
 
 </head>
@@ -138,5 +142,6 @@
 <script src="../Bootstrap/jquery-3.3.1.slim.min.js"></script>
 <script src="../Bootstrap/popper.min.js"></script>
 <script src="../Bootstrap/bootstrap.min.js"></script>
+
 </body>
    
